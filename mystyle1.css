@@ -1,0 +1,24 @@
+h1{
+      text-align: center;
+      background-color: rgb(225, 72, 72);
+}
+
+*{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:link{
+      color: red;
+      /* background-color: aqua; */
+}
+
+a:visited{
+      color: black;
+}
+
+a:active{
+      color: yellow;
+      background-color: black;
+      padding: 10px;
+}
+
