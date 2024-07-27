@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8">
+            <meta name="viewport"
+                  content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <style>
+            *{
+                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            article{
+                  background-color: rgb(65, 65, 235);
+                  color: white;
+                  padding: 10px;
+                  border-radius: 10px;
+                  text-align: center;
+                  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+                  margin-left: 20px;
+                  margin-bottom: 10px;
+            }
+
+            div{
+                  display: flex;
+            }
+
+            article:hover{
+                  background-color: black;
+            
+            }
+
+            img{
+                  border-radius:10px ;
+            }
+
+            button{
+                  width: 100%;
+                  background-color: rgb(225, 225, 49);
+                  border-radius: 10px;
+                  font-size: 1.2rem;
+                  padding: 10px;
+            }
+
+            /* media - query */
+/* ##Device = Desktops ##Screen = 1281px to higher resolution desktop */
+@media (min-width: 1281px) {
+      div{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+
+
+}
+
+/* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+      div{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+      }
+
+}
+
+/* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+      div{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+      }
+}
+
+/* ##Device = Low Resolution Tablets,  ##Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+      div{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+      }
+}
+
+/*  ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+      div{
+            display: grid;
+            grid-template-columns: 1fr;
+      }
+      
+}
+
+      </style>
+      </head>
+      <body>
+            <div>
+                  <article>
+                        <header>
+                              <h2>
+                                    product 1
+                              </h2>
+                        </header>
+                        <img src="https:picsum.photos/250?random=1" alt>
+                        <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Accusamus ut eligendi assumenda id, at est
+                              iure quis quisquam dolores nostrum .
+                        </p>
+                        <footer>
+                              <button type="button">Buy Now</button>
+                        </footer>
+                  </article>
+
+                  <article>
+                        <header>
+                              <h2>
+                                    product 1
+                              </h2>
+                        </header>
+                        <img src="https:picsum.photos/250?random=2" alt>
+                        <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Accusamus ut eligendi assumenda id, at est
+                              iure quis quisquam dolores nostrum .
+                        </p>
+                        <footer>
+                              <button type="button">Buy Now</button>
+                        </footer>
+                  </article>
+
+                  <article>
+                        <header>
+                              <h2>
+                                    product 1
+                              </h2>
+                        </header>
+                        <img src="https:picsum.photos/250?random=3" alt>
+                        <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Accusamus ut eligendi assumenda id, at est
+                              iure quis quisquam dolores nostrum .
+                        </p>
+                        <footer>
+                              <button type="button">Buy Now</button>
+                        </footer>
+                  </article>
+
+                  <article>
+                        <header>
+                              <h2>
+                                    product 1
+                              </h2>
+                        </header>
+                        <img src="https:picsum.photos/250?random=4" alt>
+                        <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Accusamus ut eligendi assumenda id, at est
+                              iure quis quisquam dolores nostrum .
+                        </p>
+                        <footer>
+                              <button type="button">Buy Now</button>
+                        </footer>
+                  </article>
+            </div>
+      </body>
+</html>
