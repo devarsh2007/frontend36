@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+      font-family: "Open Sans", sans-serif;
+      padding: 0%;
+      margin: 0;
+}
+
+.logo
+{
+      display: flex;
+      margin-left: 20px;
+}
+
+nav{
+      display: flex;
+      justify-content: space-between;
+      background-color: #021526;
+      color: white;
+      padding: 20px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      position: sticky;
+      width: 100%;
+      margin-top: -5px;
+      top:0;
+      left: 0;
+      
+}
+.links{
+      display: flex;
+      /* margin-left: 100%; */
+      padding-top: 10px;
+}
+
+li{
+      padding-left:20px ;
+      list-style-type: none;
+      
+}
+a{
+      text-decoration: none;
+      color: white;
+      /* border: 1px red solid; */
+      margin-right: 40px;
+}
+.img_logo{
+      width: 50px;
+}
+
+.shop{
+      margin-left:10px ;
+      padding-top: 10px;
+      transition: 1s;
+}
+
+a:hover{
+      color: yellow;
+}
+
+.shop:hover{
+      scale: 120%;
+}
+
+.popular{
+      display: flex;
+      margin-top: 50px;
+      /* gap: 10px; */
+      /* padding: 20px; */
+      
+}
+
+.product_heading{
+      font-family: "Gupter", serif;
+      font-size: 2rem;
+}
+
+.s1 article{
+      background-color: rgb(10, 10, 85);   
+      color: white;   
+      text-align: center;
+      border-radius: 10px;
+      padding: 20px;
+      width: 80%;
+      margin-left: 10px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      transition: 2s;
+}
+
+.s1 article header h2{
+      color: #bde496;
+}
+
+.s1 article img{
+      padding: 10px;
+      border-radius: 20px;
+}
+button{
+      background-color: #bde496;
+      color: black;
+      margin-top: 10px;
+      border-radius: 10px;
+      padding: 5px;
+      width: 100%;
+}
+
+.s1 article:hover{
+      background-color: #bde496;
+      color: hsl(208, 90%, 8%);
+      h2{
+            color: #021526;
+      }
+      button{
+            background-color: #021526;
+            color: #bde496;
+      }
+
+      transform: translateY(-10%);
+     
+
+}
+
+.s1{
+      margin-top: 30px;
+}
+
+.s2{
+      margin-top:100px ;
+      height: 1000px;
+}
+.h_card,.h_card2{
+      display: flex;
+      background-color: black;
+      color: white;
+      margin: 40px;
+      padding: 20px;
+      width: 50%;
+      transition: 2s;
+      
+}
+
+.div1{
+      display: flex;
+}
+
+.h_card,.h_card2 div{
+      margin-left: 10px;
+}
+
+.h_card:hover{
+      transform: translateX(10%);
+}
+
+.h_card2:hover{
+      transform: translateX(-10%);
+     
+}
