@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+      <div class="container">
+            <div class="row">
+                  <div class="col-10 offset-1">
+                        <div class="card shadow mt-3">
+                              <div class="card-header text-bg-success">
+                                    <h2>register</h2>
+                              </div>
+                              <div class="card-body">
+                                    <div class="row">
+                                          <div class="col">
+                                                <div class="form-floating">
+                                                      <input type="text" name="first" id="first" required
+                                                            placeholder="First Name" class=" form-control">
+                                                      <label for="first" class=" form-label">First
+                                                            Name</label>
+                                                </div>
+                                          </div>
+                                          <div class="col">
+                                                <div class="form-floating">
+                                                      <input type="text" name="middle" id="middle" required
+                                                            placeholder="middle Name" class=" form-control">
+                                                      <label for="middle" class=" form-label">middle
+                                                            Name</label>
+                                                </div>
+                                          </div>
+
+                                          <div class="col">
+                                                <div class="form-floating">
+                                                      <input type="text" class="form-control" name="last" id="last"
+                                                            required placeholder="Last Name">
+                                                      <label for="last" class=" form-label">Last
+                                                            Name</label>
+                                                </div>
+                                          </div>
+                                    </div>
+
+                                    <div class="row mt-3">
+                                          <div class="col">
+                                                <label for="country" class="form-lable">Select Country</label>
+                                                <select name="country" id="country" class="form-select mt-2">
+                                                      <option value="0">select county</option>
+                                                      <option value="china">China</option>
+                                                      <option value="india">India</option>
+                                                      <option value="japan">Japan</option>
+                                                      <option value="south_korea">South Korea</option>
+                                                      <option value="indonesia">Indonesia</option>
+                                                      <option value="pakistan">Pakistan</option>
+                                                      <option value="bangladesh">Bangladesh</option>
+                                                      <option value="philippines">Philippines</option>
+                                                      <option value="vietnam">Vietnam</option>
+                                                      <option value="thailand">Thailand</option>
+                                                    </select>
+                                                    
+                                          </div>
+
+                                          <div class="col mt-3">
+                                                <div class="form-floating">
+                                                      <input type="text" name="state" id="state" required placeholder="State" class="form-control">
+                                                      <label for="state" class="form-lable">State</label> 
+                                                </div>
+                                          </div>
+                                          <div class="col mt-3">
+                                                <div class="form-floating">
+                                                      <input type="text" name="city" id="city" required placeholder="City" class="form-control">
+                                                      <label for="city" class="form-lable">City</label> 
+                                                </div>
+                                          </div>
+
+                                          <div class="col mt-3">
+                                                <div class="form-floating">
+                                                      <input type="number" name="pincode" id="pincode" required class="form-control" placeholder="Pincode">
+                                                      <label for="pincode" class="form-lable">Pincode</label>
+                                                </div>
+                                          </div>
+                                    </div>
+
+                                    <div class="row mt-3">
+                                          <div class="col">
+                                                <label for="address" class="form-lable">Address</label>
+                                                <textarea name="address" id="address" placeholder="Address" class="form-control mt-2" ></textarea>
+                                          </div>
+
+                                          <div class="col mt-2">
+                                                <label for="photo" class="form-lable">Select Photo</label>
+                                                <input type="file" name="photo" id="photo" class="form-control mt-2" accept="image/*" >
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
+      <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
